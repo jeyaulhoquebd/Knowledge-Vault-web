@@ -183,3 +183,47 @@ text-align: center;
     margin-bottom: 32px;
     padding: 16px 120px;
 }
+
+.features-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 24px;
+}
+
+.card{
+    background: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.icon-box{
+    background-color: #ff5e5e;
+    display: flex;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.icon-box img{
+    width: 32px;
+    height: 32px;
+}
+
+.card h3{
+    color: #0d1b3e;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: #4F5665;
+    font-size: 16px;
+    line-height: 24px;
+}
